@@ -1,5 +1,5 @@
-line_bot_api = LineBotApi(cATmbAcpoB00KmtKDLael+ZvC4bTkViA466VScHTS633cTxhsetR60+j02uSYsELgF5pDw+BAi+dg6S1gpCPb6xywTB/i2qvYPhguH8EB2dzDZm9so5irv/p1ztnyFzxw17v5uMqvhNdRb0n5vjZ1AdB04t89/1O/w1cDnyilFU=)
-handler = WebhookHandler(f671d61040ef404441e326b427be892e)
+line_bot_api = LineBotApi('cATmbAcpoB00KmtKDLael+ZvC4bTkViA466VScHTS633cTxhsetR60+j02uSYsELgF5pDw+BAi+dg6S1gpCPb6xywTB/i2qvYPhguH8EB2dzDZm9so5irv/p1ztnyFzxw17v5uMqvhNdRb0n5vjZ1AdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('f671d61040ef404441e326b427be892e')
 
 
 @app.route("/callback", methods=['POST'])
